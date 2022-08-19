@@ -93,8 +93,6 @@ public class DialogContent extends Parent {
     private WebElement paymentVerify;
 
 
-
-
     WebElement myElement;
 
     public void findAndSend(String strElement, String value) {
