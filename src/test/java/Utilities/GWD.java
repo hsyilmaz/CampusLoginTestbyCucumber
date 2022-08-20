@@ -32,16 +32,17 @@ public class GWD {
     }
 
     public static void quitDriver() {
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
 
         if (driver != null) { // driver varsa
             driver.quit();
             driver = null;
         }
+
+        //        try {
+//            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 
 }

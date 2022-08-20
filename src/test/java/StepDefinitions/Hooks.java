@@ -8,12 +8,12 @@ public class Hooks {
 
     @Before
     public void before(){
-        System.out.println("Senaryo başladı");
+        System.out.println("Scenario starts");
     }
 
     @After
     public void after(){
-        System.out.println("Senaryo bitti");
+        System.out.println("Scenario ends");
         GWD.quitDriver();
     }
 
