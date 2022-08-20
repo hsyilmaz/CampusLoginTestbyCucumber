@@ -29,7 +29,7 @@ public class LoginSteps {
 
     @Then("User should login successfully")
     public void userShouldLoginSuccessfully() {
-        ls.findAndContainsText("loginSuccess"," Merhaba, ");
+        ls.findAndContainsText("loginSuccess","Merhaba");
     }
 
     @When("User enters invalid username {string} and or password {string} to log in")
@@ -40,7 +40,7 @@ public class LoginSteps {
 
     @Then("User should not login")
     public void userShouldNotLogin() {
-        ls.findAndContainsText("loginFailure"," Invalid ");
+        ls.findAndContainsText("loginFailure","Invalid ");
     }
 
 
