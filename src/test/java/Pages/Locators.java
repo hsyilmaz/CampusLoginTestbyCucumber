@@ -30,30 +30,24 @@ public class Locators extends Parent {
 
     WebElement myElement;
 
-    public void findAndSend(String strElement, String value) {
-
-        switch (strElement) {
-
+    public void findAndSend(String strElement, String value){
+        switch(strElement){
             case "username":
-                myElement = username;
-                break;
+                myElement=username;break;
             case "password":
-                myElement = password;
-                break;
+                myElement=password;break;
         }
-        sendKeysFunction(myElement, value);
+        sendKeysFunction(myElement,value);
     }
 
     public void findAndClick(String strElement) {
         switch (strElement) {
 
             case "cooky":
-                myElement = cooky;
-                break;
+                myElement = cooky;break;
 
             case "loginButton":
-                myElement = loginButton;
-                break;
+                myElement = loginButton;break;
         }
         clickFunction(myElement);
     }
