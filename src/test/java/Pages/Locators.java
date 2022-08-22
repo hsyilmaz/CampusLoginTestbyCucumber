@@ -42,10 +42,8 @@ public class Locators extends Parent {
 
     public void findAndClick(String strElement) {
         switch (strElement) {
-
             case "cooky":
                 myElement = cooky;break;
-
             case "loginButton":
                 myElement = loginButton;break;
         }
@@ -54,13 +52,10 @@ public class Locators extends Parent {
 
     public void findAndContainsText(String strElement, String text) {
         switch (strElement) {
-
             case "loginSuccess":
-                myElement = loginSuccess;
-                break;
+                myElement = loginSuccess;break;
             case "loginFailure":
-                myElement = loginFailure;
-                break;
+                myElement = loginFailure;break;
         }
         verifyContainsText(myElement, text);
     }
