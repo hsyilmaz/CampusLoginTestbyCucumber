@@ -26,15 +26,15 @@ public class Parent {
 
 
     public void clickFunction(WebElement element) {
-        waitUntilClickable(element); // tıklanabilir olana kadar bekle
-        scrollToElement(element); // elemente scroll yap
-        element.click(); // click yap
+        waitUntilClickable(element);
+        scrollToElement(element);
+        element.click();
     }
     public void sendKeysFunction(WebElement element, String value) {
-        waitUntilVisible(element); // gözükene kadar bekle
-        scrollToElement(element); // elemente scroll yap
-        element.clear(); // temizle
-        element.sendKeys(value); // değeri gönder
+        waitUntilVisible(element);
+        scrollToElement(element);
+        element.clear();
+        element.sendKeys(value);
     }
     public void verifyContainsText(WebElement element, String text) {
         waitUntilVisible(element);
