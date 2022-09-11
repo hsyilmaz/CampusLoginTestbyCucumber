@@ -17,8 +17,8 @@ Feature: Login Functionality
     Examples:
       | USERN                  | PASSW |
       | hsyilmaz1979@gmail.com | Hy300 |
-      | hsy1979                | Hy338 |
-      | hsy79@                 | Hy350 |
+      | hsy1979@yahoo.com      | Hy338 |
+      | hsy79@gmail.com        | Hy350 |
 
 
 
