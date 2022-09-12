@@ -13,7 +13,7 @@ Feature: Login Functionality
       | cooky       |
     Then User should login successfully
 
-
+@Regression
   Scenario Outline: Login Failure with invalid username or password
     When User sends username and password
       | username | <UserNm> |
