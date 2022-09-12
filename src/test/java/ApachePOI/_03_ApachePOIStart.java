@@ -33,4 +33,16 @@ public class _03_ApachePOIStart {
 
         System.out.println("hucre = " + hucre);
     }
+    /**
+     *  Interview SORUSU
+     * 1- Excelden veri okumasını nasıl yaparsınız ?
+     *    Apache.POI ile yapıyorum.
+     *
+     * 2- ApachePOI nedir ?
+     *    Excelden veri okuma aracı, kütüphanesi
+     *
+     * 3- ApachePOI yi nasıl kullanıyorsun ?
+     *    FileInputStream oluşturuyorum. (Dosyayı yani Exceli okuma için açma)
+     *    FileInputStream -> Workbook -> Sheet -> row -> cell ilşki sırasına göre okuyorum.
+     */
 }
