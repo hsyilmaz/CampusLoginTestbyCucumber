@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suit_1">
+              <span class="suite-name border-failed">Suit 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suit_1">
+                    <span>ParallelTesting_MasterReport.XML</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suit_1">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suit_1">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suit_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suit_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suit_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suit_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suit_1" class="hide-methods failed suite-Suit_1"> (hide)</a> <!-- hide-methods failed suite-Suit_1 -->
+                      <a href="#" panel-name="suite-Suit_1" class="show-methods failed suite-Suit_1"> (show)</a> <!-- show-methods failed suite-Suit_1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suit_1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suit_1" title="Runners._08_TestRunnerParallel_MasterReport" hash-for-method="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">runScenario("Login Failure with invalid username or password", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suit_1" title="Runners._08_TestRunnerParallel_MasterReport" hash-for-method="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">runScenario("Login Failure with invalid username or password", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suit_1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suit_1" class="hide-methods passed suite-Suit_1"> (hide)</a> <!-- hide-methods passed suite-Suit_1 -->
+                      <a href="#" panel-name="suite-Suit_1" class="show-methods passed suite-Suit_1"> (show)</a> <!-- show-methods passed suite-Suit_1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suit_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suit_1" title="Runners._08_TestRunnerParallel_MasterReport" hash-for-method="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">runScenario("Login Failure with invalid username or password", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suit_1" title="Runners._08_TestRunnerParallel_MasterReport" hash-for-method="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">runScenario("Login Failure with invalid username or password", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suit_1" title="Runners._08_TestRunnerParallel_MasterReport" hash-for-method="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">runScenario("Login Failure with invalid username or password", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suit_1" title="Runners._08_TestRunnerParallel_MasterReport" hash-for-method="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">runScenario("Login Failure with invalid username or password", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suit_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suit_1" class="panel Suit_1">
+          <div class="suite-Suit_1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Runners._08_TestRunnerParallel_MasterReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Failure with invalid username or password", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Failure with invalid username or password", "Login Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;consent-give&quot;&gt; is not clickable at point (1198,585) because another element &lt;div class=&quot;hot-toast-bar-base&quot;&gt; obscures it
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;computers-MBP.modem.local&apos;, ip: &apos;192.168.1.186&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_331&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5c9790bf-b8e6-4563-b595-73f26a47bb11, clickElement {id=f5a6daf1-709c-4b44-9107-639c670fd9d1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:51625, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 5873, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (5c9790bf-b8e6-4563-b595-73f26a47bb11)] -&gt; xpath: //button[text()=&apos;Accept all cookies&apos;]]
+Session ID: 5c9790bf-b8e6-4563-b595-73f26a47bb11
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at Pages.Parent.clickFunction(Parent.java:31)
+	at Pages.Locators.findAndClick(Locators.java:50)
+	at StepDefinitions.DataTableSteps.userPressLoginButton(DataTableSteps.java:25)
+	at ✽.User press login button(file:///Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/FeatureFiles/_2_DataTableLogin.feature:22)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Failure with invalid username or password", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Failure with invalid username or password", "Login Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;consent-give&quot;&gt; is not clickable at point (1198,585) because another element &lt;div class=&quot;hot-toast-bar-base&quot;&gt; obscures it
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;computers-MBP.modem.local&apos;, ip: &apos;192.168.1.186&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_331&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [08990059-7bd8-485a-81c0-bb3bce1ec173, clickElement {id=c83f5390-a005-43f7-b77c-9d4695f160da}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:60019, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 5958, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:60019/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (08990059-7bd8-485a-81c0-bb3bce1ec173)] -&gt; xpath: //button[text()=&apos;Accept all cookies&apos;]]
+Session ID: 08990059-7bd8-485a-81c0-bb3bce1ec173
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at Pages.Parent.clickFunction(Parent.java:31)
+	at Pages.Locators.findAndClick(Locators.java:50)
+	at StepDefinitions.DataTableSteps.userPressLoginButton(DataTableSteps.java:25)
+	at ✽.User press login button(file:///Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/FeatureFiles/_2_DataTableLogin.feature:22)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suit_1-class-failed -->
+          <div class="suite-Suit_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Runners._08_TestRunnerParallel_MasterReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Failure with invalid username or password", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Failure with invalid username or password", "Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Failure with invalid username or password", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Failure with invalid username or password", "Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Failure with invalid username or password", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Failure with invalid username or password", "Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Failure with invalid username or password&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Failure with invalid username or password", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Failure with invalid username or password", "Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suit_1-class-passed -->
+        </div> <!-- panel Suit_1 -->
+        <div panel-name="test-xml-Suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/XMLFiles/ParallelTesting_MasterReport.XML</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Suit 1&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Test 1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Runners._08_TestRunnerParallel_MasterReport&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 1 --&gt;
+  &lt;test name=&quot;Test 2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Runners._08_TestRunnerParallel_MasterReport&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 2 --&gt;
+&lt;/suite&gt; &lt;!-- Suit 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suit 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test 1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suit 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suit 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suit_1');
+function tableData_Suit_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'Runners._08_TestRunnerParallel_MasterReport')
+data.setCell(0, 3, 20948);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'Runners._08_TestRunnerParallel_MasterReport')
+data.setCell(1, 3, 17862);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'Runners._08_TestRunnerParallel_MasterReport')
+data.setCell(2, 3, 17053);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'Runners._08_TestRunnerParallel_MasterReport')
+data.setCell(3, 3, 15066);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'Runners._08_TestRunnerParallel_MasterReport')
+data.setCell(4, 3, 12823);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'Runners._08_TestRunnerParallel_MasterReport')
+data.setCell(5, 3, 11974);
+window.suiteTableData['Suit_1']= { tableData: data, tableDiv: 'times-div-Suit_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suit_1">
+              </div> <!-- times-div-Suit_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suit 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Runners._08_TestRunnerParallel_MasterReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@61f8bee4)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@7b49cea0)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome)</span>
+                <span class="method-start">1157 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(firefox)</span>
+                <span class="method-start">1158 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login Failure with invalid username or password", "Login Functionality")</span>
+                <span class="method-start">1169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Login Failure with invalid username or password", "Login Functionality")</span>
+                <span class="method-start">1169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login Failure with invalid username or password", "Login Functionality")</span>
+                <span class="method-start">19031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Login Failure with invalid username or password", "Login Functionality")</span>
+                <span class="method-start">22125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login Failure with invalid username or password", "Login Functionality")</span>
+                <span class="method-start">31854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login Failure with invalid username or password", "Login Functionality")</span>
+                <span class="method-start">39179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">43829 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">54246 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
