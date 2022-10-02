@@ -26,9 +26,9 @@ Feature: Login Functionality
     Then User should not login
 
     Examples:
-      | UserNm                | PassWd |
-      | hsy@yahoo.com         | Hy338  |
-      | mailman1979@gmail.com | hy308  |
-      | mailman@Hotmail.com   | Hy333  |
+      | UserNm                 | PassWd |
+      | hsy@yahoo.com          | Hy338  |
+      | hsyilmaz1979@gmail.com | hy308  |
+      | mailman@Hotmail.com    | Hy333  |
 
 

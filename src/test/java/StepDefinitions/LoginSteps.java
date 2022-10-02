@@ -17,7 +17,7 @@ public class LoginSteps {
     }
 
     @When("User enters username as {string} and password as {string} to log in")
-    public void userentersUsernameAsAndPasswordAsToLogIn(String userN, String passW) {
+    public void userEntersUsernameAsAndPasswordAsToLogIn(String userN, String passW) {
         ls.findAndSend("username",userN);
         ls.findAndSend("password",passW);
     }
@@ -33,7 +33,7 @@ public class LoginSteps {
     }
 
     @When("User enters invalid username {string} and or password {string} to log in")
-    public void userentersInvalidUsernameAndOrPasswordToLogIn(String userN, String passW) {
+    public void userEntersInvalidUsernameAndOrPasswordToLogIn(String userN, String passW) {
         ls.findAndSend("username",userN);
         ls.findAndSend("password",passW);
     }
