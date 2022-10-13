@@ -14,8 +14,11 @@ public class DataTableSteps {
     public void userSendsUsernameAndPassword(DataTable elements) {
         List<List<String>> listElement = elements.asLists(String.class);
 
-        for (int i = 0; i < listElement.size(); i++)
-            ls.findAndSend(listElement.get(i).get(0), listElement.get(i).get(1));
+        for (int i = 0; i < listElement.size(); i++){
+            ls.findAndSend(listElement.get(i).get(0), listElement.get(i).get(1));}
+        System.out.println(listElement.size());
+
+
     }
 
     @And("User press login button")

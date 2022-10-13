@@ -1,27 +1,27 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 103.593 s <<< FAILURE! - in TestSuite
-runScenario(Runners._08_TestRunnerParallel_MasterReport)  Time elapsed: 9.848 s  <<< FAILURE!
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 46.306 s <<< FAILURE! - in TestSuite
+runScenario(Runners._08_TestRunnerParallel_MasterReport)  Time elapsed: 16.89 s  <<< FAILURE!
 org.openqa.selenium.ElementClickInterceptedException: 
-Element <button class="consent-give"> is not clickable at point (1198,591) because another element <div> obscures it
+element click intercepted: Element <button class="consent-give">...</button> is not clickable at point (1198, 553). Other element would receive the click: <div _ngcontent-soc-c156="" class="hot-toast-bar-base" aria-live="polite" role="status" style="--hot-toast-animation-state:paused; padding: 20px 16px; font-size: 16px; width: auto; max-width: var(--hot-toast-max-width,600px); background-color: rgb(211, 47, 47); color: white; box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px; animation: 350ms cubic-bezier(0.21, 1.02, 0.73, 1) 0s 1 normal forwards running hotToastEnterAnimationPositive, 800ms cubic-bezier(0.06, 0.71, 0.55, 1) 4000ms 1 normal forwards running hotToastExitAnimationPositive;">...</div>
+  (Session info: chrome=106.0.5249.103)
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'computers-MBP.modem.local', ip: '192.168.1.187', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0b5a1318-0cad-47d8-a2c8-ca8533ae5557, clickElement {id=a0246e77-4bf5-4c6f-b424-6d4a6f18493f}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:52336, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 6391, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52336/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on MAC (0b5a1318-0cad-47d8-a2c8-ca8533ae5557)] -> xpath: //button[text()='Accept all cookies']]
-Session ID: 0b5a1318-0cad-47d8-a2c8-ca8533ae5557
+System info: host: 'computers-MBP.modem.local', ip: '192.168.1.186', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e26124570bd4b86862a76780b7ed8378, clickElement {id=f4097f32-646b-4a5d-8a26-8258a92936ed}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/bw/vgwt5f2n3sx...}, goog:chromeOptions: {debuggerAddress: localhost:57493}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57493/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (e26124570bd4b86862a76780b7ed8378)] -> xpath: //button[text()='Accept all cookies']]
+Session ID: e26124570bd4b86862a76780b7ed8378
 
-runScenario(Runners._08_TestRunnerParallel_MasterReport)  Time elapsed: 50.383 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-placeholder='Kullanıcı Adı']' (tried for 30 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: [data-placeholder='Kullanıcı Adı']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+runScenario(Runners._08_TestRunnerParallel_MasterReport)  Time elapsed: 7.988 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="consent-give"> is not clickable at point (1198,592) because another element <div class="hot-toast-bar-base"> obscures it
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'computers-MBP.modem.local', ip: '192.168.1.187', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_331'
+System info: host: 'computers-MBP.modem.local', ip: '192.168.1.186', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_331'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [89701221-dc39-4887-a036-665c802fb4c5, findElement {using=css selector, value=[data-placeholder='Kullanıcı Adı']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:56268, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 6568, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56268/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 89701221-dc39-4887-a036-665c802fb4c5
+Command: [90fc5c9c-ec6c-4a43-87bc-eab2457a3ef0, clickElement {id=c16e26f7-a827-4557-a030-29c209decd20}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:64187, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 17995, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (90fc5c9c-ec6c-4a43-87bc-eab2457a3ef0)] -> xpath: //button[text()='Accept all cookies']]
+Session ID: 90fc5c9c-ec6c-4a43-87bc-eab2457a3ef0
 

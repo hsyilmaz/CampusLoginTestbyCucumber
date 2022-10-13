@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test 1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 12 12:57:16 EET 2022</td>
+<td>Started on:</td><td>Thu Oct 13 17:26:04 EET 2022</td>
 </tr>
-<tr><td>Total time:</td><td>54 seconds (54303 ms)</td>
+<tr><td>Total time:</td><td>45 seconds (45849 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Runners._08_TestRunnerParallel_MasterReport.runScenario()'><b>runScenario</b><br>Test class: Runners._08_TestRunnerParallel_MasterReport<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Failure with invalid username or password", "Login Functionality"</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;consent-give&quot;&gt; is not clickable at point (1198,585) because another element &lt;div class=&quot;hot-toast-bar-base&quot;&gt; obscures it
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;consent-give&quot;&gt; is not clickable at point (1198,592) because another element &lt;div class=&quot;hot-toast-bar-base&quot;&gt; obscures it
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;computers-MBP.modem.local&apos;, ip: &apos;192.168.1.186&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_331&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5c9790bf-b8e6-4563-b595-73f26a47bb11, clickElement {id=f5a6daf1-709c-4b44-9107-639c670fd9d1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:51625, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 5873, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on MAC (5c9790bf-b8e6-4563-b595-73f26a47bb11)] -&gt; xpath: //button[text()=&apos;Accept all cookies&apos;]]
-Session ID: 5c9790bf-b8e6-4563-b595-73f26a47bb11
+Command: [90fc5c9c-ec6c-4a43-87bc-eab2457a3ef0, clickElement {id=c16e26f7-a827-4557-a030-29c209decd20}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:64187, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 17995, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (90fc5c9c-ec6c-4a43-87bc-eab2457a3ef0)] -&gt; xpath: //button[text()=&apos;Accept all cookies&apos;]]
+Session ID: 90fc5c9c-ec6c-4a43-87bc-eab2457a3ef0
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -97,17 +97,17 @@ Session ID: 5c9790bf-b8e6-4563-b595-73f26a47bb11
 	at com.sun.proxy.$Proxy26.click(Unknown Source)
 	at Pages.Parent.clickFunction(Parent.java:31)
 	at Pages.Locators.findAndClick(Locators.java:50)
-	at StepDefinitions.DataTableSteps.userPressLoginButton(DataTableSteps.java:25)
-	at ✽.User press login button(file:///Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/FeatureFiles/_2_DataTableLogin.feature:22)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace446104167", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace446104167'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;consent-give&quot;&gt; is not clickable at point (1198,585) because another element &lt;div class=&quot;hot-toast-bar-base&quot;&gt; obscures it
+	at StepDefinitions.DataTableSteps.userPressLoginButton(DataTableSteps.java:28)
+	at ✽.User press login button(file:///Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/FeatureFiles/_2_DataTableLogin.feature:23)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1200254444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1200254444'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;consent-give&quot;&gt; is not clickable at point (1198,592) because another element &lt;div class=&quot;hot-toast-bar-base&quot;&gt; obscures it
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;computers-MBP.modem.local&apos;, ip: &apos;192.168.1.186&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_331&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5c9790bf-b8e6-4563-b595-73f26a47bb11, clickElement {id=f5a6daf1-709c-4b44-9107-639c670fd9d1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:51625, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 5873, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on MAC (5c9790bf-b8e6-4563-b595-73f26a47bb11)] -&gt; xpath: //button[text()=&apos;Accept all cookies&apos;]]
-Session ID: 5c9790bf-b8e6-4563-b595-73f26a47bb11
+Command: [90fc5c9c-ec6c-4a43-87bc-eab2457a3ef0, clickElement {id=c16e26f7-a827-4557-a030-29c209decd20}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:64187, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 17995, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (90fc5c9c-ec6c-4a43-87bc-eab2457a3ef0)] -&gt; xpath: //button[text()=&apos;Accept all cookies&apos;]]
+Session ID: 90fc5c9c-ec6c-4a43-87bc-eab2457a3ef0
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -129,70 +129,10 @@ Session ID: 5c9790bf-b8e6-4563-b595-73f26a47bb11
 	at com.sun.proxy.$Proxy26.click(Unknown Source)
 	at Pages.Parent.clickFunction(Parent.java:31)
 	at Pages.Locators.findAndClick(Locators.java:50)
-	at StepDefinitions.DataTableSteps.userPressLoginButton(DataTableSteps.java:25)
-	at ✽.User press login button(file:///Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/FeatureFiles/_2_DataTableLogin.feature:22)
+	at StepDefinitions.DataTableSteps.userPressLoginButton(DataTableSteps.java:28)
+	at ✽.User press login button(file:///Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/FeatureFiles/_2_DataTableLogin.feature:23)
 </pre></div></td>
-<td>20</td>
-<td>Runners._08_TestRunnerParallel_MasterReport@6fd02e5</td></tr>
-<tr>
-<td title='Runners._08_TestRunnerParallel_MasterReport.runScenario()'><b>runScenario</b><br>Test class: Runners._08_TestRunnerParallel_MasterReport<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Failure with invalid username or password", "Login Functionality"</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;consent-give&quot;&gt; is not clickable at point (1198,585) because another element &lt;div class=&quot;hot-toast-bar-base&quot;&gt; obscures it
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;computers-MBP.modem.local&apos;, ip: &apos;192.168.1.186&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_331&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [08990059-7bd8-485a-81c0-bb3bce1ec173, clickElement {id=c83f5390-a005-43f7-b77c-9d4695f160da}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:60019, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 5958, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:60019/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on MAC (08990059-7bd8-485a-81c0-bb3bce1ec173)] -&gt; xpath: //button[text()=&apos;Accept all cookies&apos;]]
-Session ID: 08990059-7bd8-485a-81c0-bb3bce1ec173
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy26.click(Unknown Source)
-	at Pages.Parent.clickFunction(Parent.java:31)
-	at Pages.Locators.findAndClick(Locators.java:50)
-	at StepDefinitions.DataTableSteps.userPressLoginButton(DataTableSteps.java:25)
-	at ✽.User press login button(file:///Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/FeatureFiles/_2_DataTableLogin.feature:22)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace591134974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace591134974'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;consent-give&quot;&gt; is not clickable at point (1198,585) because another element &lt;div class=&quot;hot-toast-bar-base&quot;&gt; obscures it
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;computers-MBP.modem.local&apos;, ip: &apos;192.168.1.186&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_331&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [08990059-7bd8-485a-81c0-bb3bce1ec173, clickElement {id=c83f5390-a005-43f7-b77c-9d4695f160da}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:60019, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 19.6.0, moz:processID: 5958, moz:profile: /var/folders/bw/vgwt5f2n3sx..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:60019/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on MAC (08990059-7bd8-485a-81c0-bb3bce1ec173)] -&gt; xpath: //button[text()=&apos;Accept all cookies&apos;]]
-Session ID: 08990059-7bd8-485a-81c0-bb3bce1ec173
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy26.click(Unknown Source)
-	at Pages.Parent.clickFunction(Parent.java:31)
-	at Pages.Locators.findAndClick(Locators.java:50)
-	at StepDefinitions.DataTableSteps.userPressLoginButton(DataTableSteps.java:25)
-	at ✽.User press login button(file:///Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/FeatureFiles/_2_DataTableLogin.feature:22)
-</pre></div></td>
-<td>17</td>
+<td>7</td>
 <td>Runners._08_TestRunnerParallel_MasterReport@6fd02e5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -205,7 +145,12 @@ Session ID: 08990059-7bd8-485a-81c0-bb3bce1ec173
 <tr>
 <td title='Runners._08_TestRunnerParallel_MasterReport.runScenario()'><b>runScenario</b><br>Test class: Runners._08_TestRunnerParallel_MasterReport<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Failure with invalid username or password", "Login Functionality"</td>
 <td></td>
-<td>15</td>
+<td>22</td>
+<td>Runners._08_TestRunnerParallel_MasterReport@6fd02e5</td></tr>
+<tr>
+<td title='Runners._08_TestRunnerParallel_MasterReport.runScenario()'><b>runScenario</b><br>Test class: Runners._08_TestRunnerParallel_MasterReport<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Failure with invalid username or password", "Login Functionality"</td>
+<td></td>
+<td>14</td>
 <td>Runners._08_TestRunnerParallel_MasterReport@6fd02e5</td></tr>
 </table><p>
 </body>

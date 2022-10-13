@@ -11,14 +11,15 @@ import org.testng.annotations.Listeners;
 @CucumberOptions(
         tags = "@Regression",
         features = {"src/test/java/FeatureFiles/"},
-        glue = {"StepDefinitions"}
+        glue = {"StepDefinitions"},
+        plugin= {"pretty","html:target/site/cucumber-pretty","json:target/cucumber/cucumber.json"}
 )
 @Listeners({ExtentITestListenerClassAdapter.class})
 public class _07_TestRunnerExtentReport extends AbstractTestNGCucumberTests {
 
     @AfterClass
     public static void writeExtentReport() {
-        ExtentService.getInstance().setSystemInfo("User Name", "İsmet Temur");
+        ExtentService.getInstance().setSystemInfo("User Name", "Huseyin YILMAZ");
         ExtentService.getInstance().setSystemInfo("Application Name", "Campus");
         ExtentService.getInstance().setSystemInfo("Operating System Info", System.getProperty("os.name").toString());
         ExtentService.getInstance().setSystemInfo("Department", "QA");

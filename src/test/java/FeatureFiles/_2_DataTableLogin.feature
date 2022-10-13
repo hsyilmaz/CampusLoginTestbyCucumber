@@ -3,6 +3,7 @@ Feature: Login Functionality
   Background:
     Given Navigate to CampusTechnoStudy
 
+    @SmokeTest
   Scenario: Login with valid username and password
     When User sends username and password
       | username | hsyilmaz1979@gmail.com |
