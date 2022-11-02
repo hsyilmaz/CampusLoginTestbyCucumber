@@ -1,22 +1,22 @@
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_01_TestRunner.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/StepDefinitions/LoginSteps.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_09_NewExcelWrite.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_07_TestRunnerExtentReport.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_06_TestRunnerRegressionWithPlugin.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_03_TestRunnerAll.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_08_TestRunnerParallel_ExtendReport.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_02_TestRunnerBelirliFeaturelar.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_05_TestRunnerRegression.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_07_Soru.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Utilities/ExcelUtility.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Pages/Locators.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_08_WriteInTheExcel.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_04_ApachePOIGetAllData.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_04_TestRunnerSmoke.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_05_GetASpecificData.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/StepDefinitions/Hooks.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/StepDefinitions/DataTableSteps.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Utilities/GWD.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Pages/Parent.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_03_ApachePOIStart.java
-/Users/computer/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_08_TestRunnerParallel_MasterReport.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_03_ApachePOIStart.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_09_NewExcelWrite.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_06_TestRunnerRegressionWithPlugin.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_08_TestRunnerParallel_MasterReport.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Utilities/GWD.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_08_TestRunnerParallel_ExtendReport.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_04_TestRunnerSmoke.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_05_GetASpecificData.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_07_TestRunnerExtentReport.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Utilities/ExcelUtility.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_01_TestRunner.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Pages/Parent.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/StepDefinitions/Hooks.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_07_Soru.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_08_WriteInTheExcel.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/StepDefinitions/DataTableSteps.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_02_TestRunnerBelirliFeaturelar.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_03_TestRunnerAll.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/ApachePOI/_04_ApachePOIGetAllData.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Pages/Locators.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/Runners/_05_TestRunnerRegression.java
+/Users/computer/Documents/TECH. STUDY/IdeaProjects/SoftSkilCucumber/src/test/java/StepDefinitions/LoginSteps.java

@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = {"src/test/java/FeatureFiles/_1_Login.feature",
-                    "src/test/java/FeatureFiles/_02_Country.feature"
+                    "src/test/java/FeatureFiles/_2_DataTableLogin.feature"
                    },
         glue = {"StepDefinitions"},
         dryRun = false // true olduğunda testi çalıştırma sadece feature lara
