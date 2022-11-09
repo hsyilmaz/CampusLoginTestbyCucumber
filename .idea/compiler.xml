@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CamousLoginTestbyCucumber" />
         <module name="CucumberProje1" />
         <module name="FrPrjCucumber" />
-        <module name="SoftSkilCucumber" />
+        <module name="CampusLoginTestbyCucumber" />
       </profile>
     </annotationProcessing>
   </component>
