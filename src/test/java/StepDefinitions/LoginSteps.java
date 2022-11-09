@@ -15,12 +15,12 @@ public class LoginSteps {
         GWD.getDriver().get("https://campus.techno.study");
         GWD.getDriver().manage().window().maximize();
     }
-
-    @When("User enters username as {string} and password as {string} to log in")
-    public void userEntersUsernameAsAndPasswordAsToLogIn(String userN, String passW) {
-        ls.findAndSend("username",userN);
-        ls.findAndSend("password",passW);
+    @When("User enters username and password to log in")
+    public void userEntersUsernameAndPasswordToLogIn() {
+        ls.findAndSend("username","hsyilmaz1979@gmail.com");
+        ls.findAndSend("password","Hy338");
     }
+
     @And("User clicks login button")
     public void userClicksLoginButton() {
         ls.findAndClick("cooky");
@@ -43,5 +43,9 @@ public class LoginSteps {
         ls.findAndContainsText("loginFailure","Invalid ");
     }
 
-
+//    @When("User enters username as {string} and password as {string} to log in")
+//    public void userEntersUsernameAsAndPasswordAsToLogIn(String userN, String passW) {
+//        ls.findAndSend("username",userN);
+//        ls.findAndSend("password",passW);
+//    }
 }
