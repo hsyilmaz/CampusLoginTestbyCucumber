@@ -12,13 +12,13 @@ public class LoginSteps {
     Locators ls = new Locators();
     @Given("Navigate to CampusTechnoStudy")
     public void navigateToCampusTechnoStudy() {
-        GWD.getDriver().get("https://campus.techno.study");
+        GWD.getDriver().get("https://test.mersys.io/");
         GWD.getDriver().manage().window().maximize();
     }
     @When("User enters username and password to log in")
     public void userEntersUsernameAndPasswordToLogIn() {
-        ls.findAndSend("username","hsyilmaz1979@gmail.com");
-        ls.findAndSend("password","Hy338");
+        ls.findAndSend("username","turkeyts");
+        ls.findAndSend("password","TechnoStudy123");
     }
 
     @And("User clicks login button")
@@ -29,7 +29,7 @@ public class LoginSteps {
 
     @Then("User should login successfully")
     public void userShouldLoginSuccessfully() {
-        ls.findAndContainsText("loginSuccess","Merhaba");
+        ls.findAndContainsText("loginSuccess","TechnoStudy");
     }
 
     @When("User enters invalid username {string} and or password {string} to log in")

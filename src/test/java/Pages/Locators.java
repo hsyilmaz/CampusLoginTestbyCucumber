@@ -22,7 +22,7 @@ public class Locators extends Parent {
     @FindBy(xpath = "//span[text()=' GİRİŞ YAP ']")
     private WebElement loginButton;
 
-    @FindBy(xpath = "//span[text()=' Merhaba, Hüseyin Yılmaz ! '] ")
+    @FindBy(xpath = " //span[text()=' T. TechnoStudy']")
     private WebElement loginSuccess;
 
     @FindBy(xpath = "//div[contains(text(),'Invalid')]")

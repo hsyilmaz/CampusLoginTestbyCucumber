@@ -2,7 +2,7 @@ Feature: Login Functionality
 
   Background:
     Given Navigate to CampusTechnoStudy
-
+ @SmokeTest
   Scenario: Login with valid username and password
 
     When User enters username and password to log in
@@ -17,10 +17,10 @@ Feature: Login Functionality
     Then User should not login
 
     Examples:
-      | UserN                  | PassW |
-      | hsyilmaz1979@gmail.com | Hy300 |
-      | hsy1979@yahoo.com      | Hy338 |
-      | hsy79@gmail.com        | Hy350 |
+      | UserN                | PassW |
+      | yilmaz79@gmail.com    | Hy500 |
+      | hsy1979@yahoo.com    | Yh338 |
+      | hsy79@gmail.com      | Hy350 |
 
 
 
